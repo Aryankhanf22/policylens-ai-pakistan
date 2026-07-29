@@ -14,9 +14,9 @@ import {
   BarChart3,
 } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
-import heroImage from '../23.png';
-import featureImage from '../2.png';
-import featureImageTwo from '../3.png';
+import heroImage from '../assests/hero.png';
+import featureImage from '../assests/2.png';
+import featureImageTwo from '../assests/3.png';
 import './Landing.css';
 
 export const LandingPage = () => {
