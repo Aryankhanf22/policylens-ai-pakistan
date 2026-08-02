@@ -50,15 +50,15 @@ export const BusinessHub = () => {
         <img 
           src="https://res.cloudinary.com/dybzcwykm/image/upload/v1777828129/feature1_l42w6o.png" 
           alt="Business Impact Hub" 
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-50"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-100"
         />
         <div className="absolute bottom-8 left-8 z-20">
           <div className="flex items-center gap-2 mb-2">
-             <div className="h-1 w-8 bg-black rounded-full" />
-             <span className="text-[11px] font-black uppercase tracking-[0.3em] text-black">Enterprise Resilience Matrix</span>
+             <div className="h-1 w-8 bg-white rounded-full" />
+             <span className="text-[11px] font-black uppercase tracking-[0.3em] text-white">Enterprise Resilience Matrix</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 tracking-tighter">Business Impact Hub</h1>
-          <p className="text-slate-600 font-medium text-sm mt-1">Quantify and mitigate fuel-shocks for your enterprise.</p>
+          <h1 className="text-4xl font-black text-slate-900 tracking-tighter text-white">Business Impact Hub</h1>
+          <p className="text-slate-600 font-medium text-sm mt-1 text-white">Quantify and mitigate fuel-shocks for your enterprise.</p>
         </div>
       </div>
 
