@@ -44,20 +44,20 @@ export const Dashboard = () => {
   return (
     <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
       {/* Hero Header */}
-      <div className="relative h-48 md:h-64 w-full rounded-[32px] overflow-hidden border border-white/5 mb-2 group">
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10" />
+      <div className="relative h-48 md:h-64 w-full rounded-[32px] overflow-hidden border border-white/5 mb-2 group bg-gradient-to-t from-black via-black/20 to-transparent z-10">
+        <div className="absolute inset-0" />
         <img 
           src="https://res.cloudinary.com/dybzcwykm/image/upload/v1777827762/iamge_dwison.png" 
           alt="Pakistan Economic Map" 
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-60"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-99"
         />
         <div className="absolute bottom-8 left-8 z-20">
           <div className="flex items-center gap-2 mb-2">
-             <div className="h-1 w-8 bg-black rounded-full" />
-             <span className="text-[11px] font-black uppercase tracking-[0.3em] text-black">Policy Intelligence Hub</span>
+             <div className="h-1 w-8 bg-white rounded-full" />
+             <span className="text-[11px] font-black uppercase tracking-[0.3em] text-white">Policy Intelligence Hub</span>
           </div>
-          <h1 className="text-4xl font-black text-slate-900 tracking-tighter">Command Overview</h1>
-          <p className="text-slate-600 font-medium text-sm mt-1">Monitoring Pakistan's macro-economic pulse.</p>
+          <h1 className="text-4xl font-black text-slate-900 tracking-tighter text-white">Command Overview</h1>
+          <p className="text-slate-600 font-medium text-sm mt-1 text-white">Monitoring Pakistan's macro-economic pulse.</p>
         </div>
       </div>
 
