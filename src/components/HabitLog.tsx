@@ -84,16 +84,16 @@ export const HabitLog = () => {
         <img 
           src="https://res.cloudinary.com/dybzcwykm/image/upload/v1777828130/feature2_aengm2.png" 
           alt="Habit Log Banner" 
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-40"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-100"
         />
         <div className="absolute bottom-8 left-8 right-8 z-20 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
             <div className="flex items-center gap-2 mb-2">
-               <div className="h-1 w-8 bg-black rounded-full" />
-               <span className="text-[11px] font-black uppercase tracking-[0.3em] text-black">Personal Mobility Ledger</span>
+               <div className="h-1 w-8 bg-white rounded-full" />
+               <span className="text-[11px] font-black uppercase tracking-[0.3em] text-white">Personal Mobility Ledger</span>
             </div>
-            <h1 className="text-4xl font-black text-slate-900 tracking-tighter">Habit Log</h1>
-            <p className="text-slate-600 font-medium text-sm mt-1">Tracking personal mobility expenses and optimization.</p>
+            <h1 className="text-4xl font-black text-slate-900 tracking-tighter  text-white">Habit Log</h1>
+            <p className="text-slate-600 font-medium text-sm mt-1  text-white">Tracking personal mobility expenses and optimization.</p>
           </div>
           <Button onClick={handleAnalyze} variant="primary" size="sm" className="h-10 px-6 backdrop-blur-md" disabled={isAnalyzing || logs.length === 0}>
             <Sparkles className="w-4 h-4 mr-2" /> {isAnalyzing ? 'Analyzing...' : 'AI Insights'}
