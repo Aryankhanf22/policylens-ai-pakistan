@@ -111,16 +111,16 @@ export const ScenarioLab = () => {
         <img 
           src="https://res.cloudinary.com/dybzcwykm/image/upload/v1777827762/iamge_dwison.png" 
           alt="Scenario Lab Map" 
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-50"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-100"
         />
         <div className="absolute bottom-8 left-8 right-8 z-20 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
             <div className="flex items-center gap-2 mb-2">
-               <div className="h-1 w-8 bg-black rounded-full" />
-               <span className="text-[11px] font-black uppercase tracking-[0.3em] text-black">Advanced Simulation Engine</span>
+               <div className="h-1 w-8 bg-white rounded-full" />
+               <span className="text-[11px] font-black uppercase tracking-[0.3em] text-white">Advanced Simulation Engine</span>
             </div>
-            <h1 className="text-4xl font-black text-slate-900 tracking-tighter">Scenario Lab</h1>
-            <p className="text-slate-600 font-medium text-sm mt-1">Engineer and stress-test national policy frameworks.</p>
+            <h1 className="text-4xl font-black text-slate-900 tracking-tighter text-white">Scenario Lab</h1>
+            <p className="text-slate-600 font-medium text-sm mt-1 text-white ">Engineer and stress-test national policy frameworks.</p>
           </div>
           <div className="flex items-center gap-3">
             <input 
